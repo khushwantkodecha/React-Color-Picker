@@ -71,6 +71,9 @@ nav ul li a {
   text-underline-position: none;
 }
 
+.btm {
+  width: 100%;
+}
 .checkbtn {
   font-size: 30px;
   color: white;
@@ -109,6 +112,9 @@ nav ul li a {
     text-align: center;
     transition: all 0.5s;
     z-index: 1;
+  }
+  .copy {
+    display: none;
   }
   nav ul li {
     display: block;

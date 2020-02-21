@@ -26,7 +26,9 @@ class App extends Component {
           <label class="logo" style={{ fontFamily: "Alegreya Sans SC" }}>
             UI Color Uthao
           </label>
-          <label style={{ fontFamily: "Alegreya Sans SC", padding: "0 300px" }}>Click To Copy Color</label>
+          <label class="copy" style={{ fontFamily: "Alegreya Sans SC", padding: "0 300px" }}>
+            Click To Copy Color
+          </label>
 
           <ul>
             <li style={{ fontFamily: "Alegreya Sans SC" }}>
@@ -537,11 +539,11 @@ class App extends Component {
             </div>
             <div
               className="col-2 center"
-              style={{ backgroundColor: "#0AFF2F" }}
-              onClick={e => this.copyText("#0AFF2F")}
+              style={{ backgroundColor: "#0AFF2E" }}
+              onClick={e => this.copyText("#0AFF2E")}
             >
-              <p className="text-white" id="#0AFF2F">
-                #0AFF2F
+              <p className="text-white" id="#0AFF2E">
+                #0AFF2E
               </p>
             </div>
             <div
@@ -642,8 +644,8 @@ class App extends Component {
               style={{ backgroundColor: "#FBD28B" }}
               onClick={e => this.copyText("#FBD28B")}
             >
-              <p className="text-white" id="#F3B63A">
-                #F3B63A
+              <p className="text-white" id="#FBD28B">
+                #FBD28B
               </p>
             </div>
             <div
@@ -716,7 +718,7 @@ class App extends Component {
               style={{ backgroundColor: "#0AFF2F" }}
               onClick={e => this.copyText("#0AFF2F")}
             >
-              <p className="text-white" id="#0AFF2F">
+              <p id="#0AFF2F" className="text-white">
                 #0AFF2F
               </p>
             </div>
@@ -880,11 +882,11 @@ class App extends Component {
             </div>
             <div
               className="col-2 center"
-              style={{ backgroundColor: "#4C4B4B" }}
-              onClick={e => this.copyText("#4C4B4B")}
+              style={{ backgroundColor: "#4C4B4C" }}
+              onClick={e => this.copyText("#4C4B4C")}
             >
-              <p className="text-white" id="#4C4B4B">
-                #4C4B4B
+              <p className="text-white" id="#4C4B4C">
+                #4C4B4C
               </p>
             </div>
             <div
@@ -943,11 +945,11 @@ class App extends Component {
             </div>
             <div
               className="col-2 center"
-              style={{ backgroundColor: "#74B9FF" }}
-              onClick={e => this.copyText("#74B9FF")}
+              style={{ backgroundColor: "#74B9FE" }}
+              onClick={e => this.copyText("#74B9FE")}
             >
-              <p className="text-white" id="#74B9FF">
-                #74B9FF
+              <p className="text-white" id="#74B9FE">
+                #74B9FE
               </p>
             </div>
             <div
@@ -1035,8 +1037,8 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div class="navbar fixed-bottom navbar-light bg-light">
-          <label style={{ fontFamily: "Alegreya Sans SC", padding: "0 520px" }}>Great colors for great designs!</label>
+        <div class="navbar fixed-bottom navbar-light bg-light btm">
+          <label style={{ fontFamily: "Alegreya Sans SC", padding: "0 530px" }}>Great colors for great designs!</label>
         </div>
         <br />
         <br />
