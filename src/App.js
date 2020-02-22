@@ -1037,8 +1037,10 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div class="navbar fixed-bottom navbar-light bg-light btm">
-          <label style={{ fontFamily: "Alegreya Sans SC", padding: "0 530px" }}>Great colors for great designs!</label>
+        <div className="navbar fixed-bottom navbar-light btm">
+          <label style={{ fontFamily: "Alegreya Sans SC", paddingLeft : "43%", width: "100%" }}>
+            Great colors for great designs!
+          </label>
         </div>
         <br />
         <br />
